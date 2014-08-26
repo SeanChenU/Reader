@@ -86,3 +86,10 @@
 @interface ReaderPagebarShadow : UIView
 
 @end
+
+@interface UIColor(MBCategory)
+
++ (UIColor *)colorWithHex:(UInt32)col;
++ (UIColor *)colorWithHexString:(NSString *)str;
+
+@end
